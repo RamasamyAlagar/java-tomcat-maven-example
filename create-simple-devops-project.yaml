@@ -17,5 +17,5 @@
      ignore_errors: yes
 
    - name: pull docker image from dockerhub
-     command: docket run -d --name simple-devops-container -p 8090:8080 alagarramasamy/simple-devops-image:latest
+     command: docket run -d --name simple-devops-container -p 8080:8080 alagarramasamy/simple-devops-image:latest
      
